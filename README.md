@@ -10,8 +10,8 @@
 ## 모듈
 * 폴더 내부에 docker_inspection.json과 docker_stats.json이 있다. 이는 파이썬 SDK에서 docker stats 명령어와 docker inspection 명령어의 역할을 하는 메서드의 결과물을 저장한 것이다. 이 json 구조를 참고하여 코딩하였다.
 
-* 필요한 메트릭은 Docker Doc를 참고하여 주어진 공식대로 원하는 메트릭을 계산하여 사용하였다
-![image](https://user-images.githubusercontent.com/57928967/213634725-b50ad7ee-7ebb-439a-b775-186c5f0e22c8.png)
+* 필요한 메트릭은 Docker Doc를 참고하여 주어진 공식대로 원하는 메트릭을 계산하여 사용하였다 ([출처](https://docs.docker.com/engine/api/v1.41/#tag/Container/operation/ContainerStats))
+![image](https://user-images.githubusercontent.com/57928967/213635488-9f3ffb13-bf51-42f9-a68e-3fc3ba414aca.png)
 
 ## 폴더 구조 설명
 * Data : json 출력물을 저장하는 폴더
